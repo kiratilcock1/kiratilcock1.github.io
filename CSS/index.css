@@ -8,10 +8,16 @@ h1, table, td, tr {
 table, td, tr{
 	font-family: font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	color: #363600
+	text-align: center;
 
 }
 
 td{
+	font-family: font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	text-align: center;
+}
+
+th{
 	font-family: font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	text-align: center;
 }
@@ -34,12 +40,14 @@ h2 {
 }
 
 h1{
+	font-size: 10px
+	font-weight: 200;
 	font-family: font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 h2 span { 
    color: white; 
-   font: bold 50px/100px Helvetica, Sans-Serif; 
+   font: bold 50px/100px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  
    letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
@@ -61,4 +69,27 @@ h3{
 p{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    	font-weight: 300;
+   	text-align: center;
+}
+
+.jumbotron {
+	padding: 30px;
+	margin-bottom: 30px;
+	font-size: 21px;
+	color: inherit;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	background-image: url('image.jpg');
+	background-position: center;
+}
+
+.jumbotron h1, 
+.jumbotron .h1 {
+	color: black;
+}
+
+.jumbotron p{
+	margin-bottom: 15px;
+	font-size: 21px
+	font-weight: 200;
+	color: black;
 }
