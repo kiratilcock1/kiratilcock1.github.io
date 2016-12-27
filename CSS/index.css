@@ -31,6 +31,11 @@ body{
 	width: 100%;
 }
 
+a{
+	position: center;
+	text-align: center;
+}
+
 h2 { 
    position: absolute; 
    top: 200px; 
@@ -93,6 +98,3 @@ p{
 	color: black;
 }
 
-br {
-	padding: 30px;
-}
