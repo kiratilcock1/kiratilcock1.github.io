@@ -99,3 +99,8 @@ p{
 	color: black;
 }
 
+ul.a {
+    list-style-type: circle;
+    font-size: 1.2em;
+}
+
